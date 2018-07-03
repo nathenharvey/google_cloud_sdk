@@ -15,7 +15,4 @@ apt_repository 'google-cloud-sdk' do
   cache_rebuild true
 end
 
-# for testing only
-package 'vim'
-
 package 'google-cloud-sdk'
